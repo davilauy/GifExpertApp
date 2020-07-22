@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en: <GifGrid /> Debe de mostrar el componente correctamente  1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Will Smith
+  </h3>
+  <p
+    className="card-grid animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid animate__animated animate__fadeIn"
+  />
+</Fragment>
+`;
+
+exports[`Prueba en: <GifGrid /> Debe de mostrar items cuando se cargan imagenes desde custom hook  1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Will Smith
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeIn"
+  >
+    <GifGridItem
+      id="abc"
+      key="abc"
+      title="test"
+      url="https://localhost/img.png"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="test 2"
+      url="https://localhost/img.png"
+    />
+  </div>
+</Fragment>
+`;
